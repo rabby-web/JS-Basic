@@ -1,0 +1,14 @@
+var mathmaticsNumber = 75.25;
+var biology = 65;
+var chemistry = 80;
+var physics = 35.45;
+var bangla = 99.50;
+var totalMarks = mathmaticsNumber + biology + chemistry + physics + bangla;
+// console.log(totalMarks);
+var totalSubject = 5;
+var averageMarks = totalMarks / totalSubject;
+// console.log(averageMarks);
+// averageMarks = parseFloat(averageMarks);
+// console.log(averageMarks);
+averageMarks = averageMarks.toFixed(2);
+console.log(averageMarks);
