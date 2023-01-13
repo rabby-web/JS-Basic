@@ -1,4 +1,4 @@
-var shopingCard = {
+ var shoppingCard = {
     books: 3,
     sunglass: 1,
     keyboard: 5,
@@ -6,18 +6,18 @@ var shopingCard = {
     pen: 25,
 }
 // When you know the property name,use dode notation
-varCount = shopingCard.pen;
+varCount = shoppingCard.pen;
 // alternative system
 // When you know the property name , use dode notation
-var penCount2 = shopingCard["books"];
+var penCount2 = shoppingCard["books"];
 
-var properties = Object.keys(shopingCard)
+var properties = Object.keys(shoppingCard)
 
-var propertyValues = Object.values(shopingCard)
+var propertyValues = Object.values(shoppingCard)
 
-var propertyName = shopingCard[propertyName];
-shopingCard["mouse"] = 30;
+var propertyName = shoppingCard[propertyName];
+shoppingCard["mouse"] = 30;
 console.log(propertyName)
 console.log(propertyValues)
 console.log(properties)
-console.log(shopingCard)
+console.log(shoppingCard)
