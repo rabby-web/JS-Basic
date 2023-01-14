@@ -10,3 +10,4 @@ if(friend.indexOf(20) !== -1){
 const newFriendAge = [20, 21, 22, 23, 24, 25, 26];
 const allAge =newFriendAge.concat(friend);
 console.log(allAge);
+console.log(83/22);
